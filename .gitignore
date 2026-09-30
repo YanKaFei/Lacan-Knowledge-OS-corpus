@@ -1,0 +1,3 @@
+# the pack itself is a release asset, never a committed file
+*.tar.gz
+*.tar.gz.part*
