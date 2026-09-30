@@ -1,11 +1,11 @@
 {
  "counts": {
-  "files": 2017,
+  "files": 2078,
   "passages": 14,
-  "raw_bytes": 1492237399,
+  "raw_bytes": 1496569901,
   "seminars": 1979
  },
- "created_at": "2026-09-30T01:28:19Z",
+ "created_at": "2026-09-30T02:15:44Z",
  "files": [
   {
    "bytes": 7255,
@@ -9938,6 +9938,36 @@
    "sha256": "d877c2e5e417ddd7afc2af195148da45d59b91b831fe29fa99a5c8b7be2dabfa"
   },
   {
+   "bytes": 2283,
+   "path": "_data/core_freeze/data_version_declarations.json",
+   "sha256": "829f59c687d13061d75d443caf5d8f91ac2c52ba503d25b2e412ca02014ddf93"
+  },
+  {
+   "bytes": 14866,
+   "path": "_data/core_freeze/freeze_lineage.json",
+   "sha256": "14bf69e048bd6d32c19294ac2857a535d71345a9cd613263d405a479ea98bbf7"
+  },
+  {
+   "bytes": 9859,
+   "path": "_data/core_freeze/scholarly_core_freeze_v1.json",
+   "sha256": "e73153b760904830fb8851a17827554d721867df6d26d9930b50b62f111eddd5"
+  },
+  {
+   "bytes": 80462,
+   "path": "_data/corpus_inventory.csv",
+   "sha256": "adaf37d77c89c35f5951348fb52b227da5f36d832ec03d1363a2f14b70ed3701"
+  },
+  {
+   "bytes": 243814,
+   "path": "_data/corpus_inventory.json",
+   "sha256": "b40342369ad3014eb0f4dd626b025bdb72aeaa1040952350335640ecfb5dc5c1"
+  },
+  {
+   "bytes": 21075,
+   "path": "_data/corpus_report.md",
+   "sha256": "3d3c42f1c49112298c3e0dd0e780ccf6a82c5bdf2dd3c8f8b72dcd3d943199d5"
+  },
+  {
    "bytes": 13334,
    "path": "_data/entities/case_registry.json",
    "sha256": "1b873fd3a94c1319b8284353acdebb4012a0c0c10b4b20f4217cf3ad590da10f"
@@ -9958,9 +9988,234 @@
    "sha256": "ab19351fa07e1bf17a1649069f18063f3059da59d4e2ecb8e23a95d09357bcbe"
   },
   {
+   "bytes": 78797,
+   "path": "_data/eval/claim_entailment_calibration_v1.jsonl",
+   "sha256": "553fc5933ee0e328b04572e82f0f86771a25c9115d154fd05a5c5e13a5d9d7f3"
+  },
+  {
+   "bytes": 10434,
+   "path": "_data/eval/evaluation_integrity_audit.json",
+   "sha256": "d91dbb2bdadb026c23ed0a18bb4c360a6bd4694fd91628f7deade4dd4b60c2cc"
+  },
+  {
+   "bytes": 3677,
+   "path": "_data/eval/evaluation_run_manifest.schema.json",
+   "sha256": "9f250de2fc5050ba1c3a072224e67b382d6d3962c2c1c5490bcba40e7bdbffe4"
+  },
+  {
+   "bytes": 14488,
+   "path": "_data/eval/evaluation_truth_adjudicated_v1.json",
+   "sha256": "9ee5ad7ac15f0b31903aa1e37f5a74e97c6d30c7b7029cfafffeefc84830d403"
+  },
+  {
+   "bytes": 7720,
+   "path": "_data/eval/failure_class_mapping_v1.json",
+   "sha256": "2538b54db139335b8a4b8f7ac0f4ff57b447b1558631d48e0661802552595a8c"
+  },
+  {
+   "bytes": 59413,
+   "path": "_data/eval/gold_lane_audit_v1.jsonl",
+   "sha256": "5505cc2db717dff51c1023a83105b919e80c803c43be0207b54a24a6048e6085"
+  },
+  {
+   "bytes": 1557,
+   "path": "_data/eval/gold_v2/MANIFEST.json",
+   "sha256": "d3fc4a71ff884dc61892fc681af691dc1c5981be10675b796a44351adaa092b5"
+  },
+  {
+   "bytes": 15617,
+   "path": "_data/eval/gold_v2/gold_v2_derivation.json",
+   "sha256": "ed961bf8eb994568856eac7d588760f4998297148c91746a6e405d2a2827a576"
+  },
+  {
+   "bytes": 4026,
+   "path": "_data/eval/gold_v2/lane_overrides_v1.json",
+   "sha256": "7b1e48668d83851c8abfccae1ca28492033331b3a40bdb27bee94598f9dd9dcc"
+  },
+  {
+   "bytes": 22261,
+   "path": "_data/eval/gold_v2/manual_review_lanes_v1.json",
+   "sha256": "257491b220d2fbd26b828aef6bbddff218c95ca059f1b82569d6602543405bad"
+  },
+  {
+   "bytes": 144049,
+   "path": "_data/eval/gold_v2/research_tasks_v2.jsonl",
+   "sha256": "80465fb42aa9d8b401e475dd018fcc37aa810177a50201a99294f5e6c28544f2"
+  },
+  {
+   "bytes": 9155,
+   "path": "_data/eval/human_adjudication_queue.jsonl",
+   "sha256": "acf69693a6cdc3adbec1da8c2131618f15b47aa3dec10815becef76c0f6b4dcb"
+  },
+  {
+   "bytes": 14047,
+   "path": "_data/eval/human_review_baseline_v1.json",
+   "sha256": "df10f98fb39220ef5a115f5c65fba7e0df165f6579e3216aaf7922ab7c8dda4a"
+  },
+  {
+   "bytes": 17053,
+   "path": "_data/eval/human_review_results_v1.json",
+   "sha256": "43a3438bebb8961169e12f97d0cad4b7da24c07a35823f4073463617c1fa6168"
+  },
+  {
+   "bytes": 16135,
+   "path": "_data/eval/human_review_results_v2.json",
+   "sha256": "11a002210b447c108d129d715a91aa3ac64b4a91e59eab481033c2a452bc0f93"
+  },
+  {
+   "bytes": 3897,
+   "path": "_data/eval/human_review_set_v1.json",
+   "sha256": "11afd5f9c76417cab480983b4b3794a4d9d4214f56474515c6a497734df71753"
+  },
+  {
+   "bytes": 4886,
+   "path": "_data/eval/lane_semantics_v1.json",
+   "sha256": "db6e763f51070704b328c26461c21e1af893a1049ee77c5958a478138c5b123c"
+  },
+  {
+   "bytes": 12338,
+   "path": "_data/eval/manifests/latest.json",
+   "sha256": "e680c0fc34df40ddcfc29c1f2e3f53b79b410351b691bc0f01bfc913a94753e6"
+  },
+  {
+   "bytes": 1678,
+   "path": "_data/eval/phase4c1d2_frozen_identity.json",
+   "sha256": "5ca5ca0aaf8dc25a7b21ac6feac4702b27915be6e470bac54a81211a65d3c9e5"
+  },
+  {
+   "bytes": 8694,
+   "path": "_data/eval/research_contract.schema.json",
+   "sha256": "6510cc86c7bb566daba55aaec34d6c855dd20fba61c3fec67a3c1b6ba1af5fb5"
+  },
+  {
+   "bytes": 154490,
+   "path": "_data/eval/research_eval_results.4c1b.json",
+   "sha256": "4b66eb15107f1c063bc570c3c9aed96d762ac4f34a55b96fa974e8e235f037d7"
+  },
+  {
+   "bytes": 32402,
+   "path": "_data/eval/research_eval_results.4c1b2.json",
+   "sha256": "91c9fa6cb2bb2228ce6f699de49dd156f5967c31bbaeea235c6aa3b1444b8105"
+  },
+  {
+   "bytes": 5258,
+   "path": "_data/eval/research_eval_results.4c1b2.metrics_snapshot.json",
+   "sha256": "b9d08c7d9e9a416ff1675e4e6dcbcbda7e42d0e09f677cc6eea16319b4a1dc58"
+  },
+  {
+   "bytes": 268659,
+   "path": "_data/eval/research_eval_results.4c1b3.json",
+   "sha256": "69e6820a6e341c766473f6b70b68ef1472f850882c844edb15fed10702de2d3b"
+  },
+  {
+   "bytes": 121812,
+   "path": "_data/eval/research_eval_results.v4c.json",
+   "sha256": "b07d08cca04a18c951813a7d22cf4ade1fe16d780a8362840dcd60a855c51a8a"
+  },
+  {
+   "bytes": 52005,
+   "path": "_data/eval/research_eval_results_v1.dev.json",
+   "sha256": "c44844e30661ade46cc4556508f82edb3eca8450eb0b067133c1a528a0eee3f2"
+  },
+  {
+   "bytes": 27145,
+   "path": "_data/eval/research_eval_results_v1.holdout.json",
+   "sha256": "50f93850dc9e7aa8ba8221b3ce779fa2781d75a0f0d1ed082f59c0f35a223350"
+  },
+  {
+   "bytes": 176445,
+   "path": "_data/eval/research_human_review.jsonl",
+   "sha256": "a14ea5316ccaaf90f95e197f9674bca9620848fcc726a1bd5d4c9694fe4bfb3d"
+  },
+  {
+   "bytes": 67324,
+   "path": "_data/eval/research_human_review_round2.jsonl",
+   "sha256": "2e80c7b421a3792c6a0dae735df33dd2176e5faaf31b333a7c881f4b7fd2e1d0"
+  },
+  {
+   "bytes": 23486,
+   "path": "_data/eval/research_synthesis_results.4c1c.json",
+   "sha256": "ad11f03c5cfad54a4fb294b3d15654a6745d5491b4fa71756dc5ddc0e1bdafe4"
+  },
+  {
+   "bytes": 20498,
+   "path": "_data/eval/research_synthesis_results.4c1d.json",
+   "sha256": "fc074b01d4ac1773757762205a86a382df1b102a972847f27d29f96fa2060498"
+  },
+  {
+   "bytes": 38585,
+   "path": "_data/eval/research_tasks_v1.gold_derivation.json",
+   "sha256": "3dd8a476f19e5d23283411f643978f7da7faa9a8ebb21a214a3ca93d7151b08a"
+  },
+  {
+   "bytes": 393844,
+   "path": "_data/eval/research_tasks_v1.jsonl",
+   "sha256": "de27eb12326c81d7b925f79109cd0475412de264bf042bfa6e0a1aab9ca769df"
+  },
+  {
+   "bytes": 3775,
+   "path": "_data/eval/round2_review_schema.json",
+   "sha256": "c970e104bbcae784110208501b010ff1f9fb2e0adef87ed7e7a13009b2e6ca5e"
+  },
+  {
+   "bytes": 9543,
+   "path": "_data/eval/round2_taxonomy_v1.json",
+   "sha256": "f38ec734f4d241a986ef4b84ae494188a17dfd7d18e1362844086947b9155c24"
+  },
+  {
+   "bytes": 5551,
+   "path": "_data/eval/scholarly_readiness_gate_v1.json",
+   "sha256": "ca915b0ba362d7a716430a55502a1fe6406366e5f9eff4ef3760bfb4be97d121"
+  },
+  {
+   "bytes": 48449,
+   "path": "_data/eval/scholarly_regression_v1.jsonl",
+   "sha256": "21a44ae328503a831134e21cb1568248d291c5820fda04ab4407940cabd55723"
+  },
+  {
+   "bytes": 10630,
+   "path": "_data/eval/trace_integrity_baseline_v1.json",
+   "sha256": "fa02a397a6af97a176a5e6199bcb0510fcc9e11e875eb59ea4c59210c6120a18"
+  },
+  {
+   "bytes": 1933,
+   "path": "_data/index/DETERMINISTIC_SUITE_RUN.json",
+   "sha256": "f725ce1a5377f9ee4ded387d26180eccbaf32d52de93424082adff3c24301a91"
+  },
+  {
+   "bytes": 1879,
+   "path": "_data/index/INDEX_MANIFEST.json",
+   "sha256": "f302cff0d1ce33018a79c31b773f8591603e35ac1b2775b4f3c0d796a9ca59a5"
+  },
+  {
+   "bytes": 18585,
+   "path": "_data/index/TEST_RUN.json",
+   "sha256": "34d9e79352b6db11b24b214b98c9cba3d40e9454f69eb9e7892d69f30f041161"
+  },
+  {
+   "bytes": 3738,
+   "path": "_data/index/alias_collisions.jsonl",
+   "sha256": "a660889f34abd819b47b46c425fe7a8038f698917b2a312cbcb6e000870d0156"
+  },
+  {
+   "bytes": 196967,
+   "path": "_data/index/alias_index.jsonl",
+   "sha256": "4965510204eca049d3e0adc8263ae16eb7bf845453cf4686f71bc394dc337ab7"
+  },
+  {
    "bytes": 249462784,
    "path": "_data/index/lexical.sqlite",
    "sha256": "d7fad570fd7069eab9d5971dc9af697e722e5f7d6132f9795e6ff654f2c7b207"
+  },
+  {
+   "bytes": 3625,
+   "path": "_data/index/vector/VECTOR_INDEX_MANIFEST.json",
+   "sha256": "e3ce7ff20615f18c845590fb4cd0ba123abc8ae67276c368091db548563e9114"
+  },
+  {
+   "bytes": 2963,
+   "path": "_data/mcp/DSH_CLIENT_PROOF.json",
+   "sha256": "39798db8395e54cbfa6310f76caf192e82e07abf71bb9564fe6fc2c4c7b224e3"
   },
   {
    "bytes": 1365,
@@ -10006,6 +10261,11 @@
    "bytes": 3277,
    "path": "_data/ontology/v4a1/vocabulary.json",
    "sha256": "af61e5df46a157e573a948125eddcfa5327ddd081fdbcecd838aacd4d7b2b131"
+  },
+  {
+   "bytes": 48293,
+   "path": "_data/ontology_gap_queue.jsonl",
+   "sha256": "9995b20dbefd475d0a5dcb0f2d002d5f20ab771b8d2b267ed6544bedb19a2b56"
   },
   {
    "bytes": 1366,
@@ -10078,6 +10338,36 @@
    "sha256": "a6eb285f6faee3c00870c4d28bf24b4b2b3bc482e9be26e6cd590a331e9ba501"
   },
   {
+   "bytes": 3400,
+   "path": "_data/phase5a/corpus_diff_audit.json",
+   "sha256": "d8433b99a25fb6d9b32f0ac89c3436ddb51fec0ebade30230fc18fb0c7311b1a"
+  },
+  {
+   "bytes": 2476,
+   "path": "_data/phase5a/regression.json",
+   "sha256": "64fe619a0599c71a1b2792dcb1cf0378779e85a6f7ef9ff71e4365cf58c7b991"
+  },
+  {
+   "bytes": 44957,
+   "path": "_data/phase5b/regression.json",
+   "sha256": "a1433a8f01dc4bf275293c83c9c5ece67ea16dcaf594d75ac3126a494d505a4f"
+  },
+  {
+   "bytes": 46526,
+   "path": "_data/phase5c/regression.json",
+   "sha256": "1cfa8584332490b9a07c732caeea6663ee1b3dd76e0e5f3f684b0f3ab77bf8b7"
+  },
+  {
+   "bytes": 4650,
+   "path": "_data/recoverable_corpus.json",
+   "sha256": "cce29fa52e7b2a249ce653c3dccce76670cd08228733437dcdd5a1dff209e3d0"
+  },
+  {
+   "bytes": 497,
+   "path": "_data/relations/relations.jsonl",
+   "sha256": "b8aaa828dedaa29e4bd4325b116136e89a2be0739c0ee839a291348a7719326b"
+  },
+  {
    "bytes": 723219,
    "path": "_data/render_normalization.jsonl",
    "sha256": "78c3310e5a0ff755c6177e46a72e4a1be909e03f53935badf8f23d08ca2bdbc4"
@@ -10088,6 +10378,21 @@
    "sha256": "6e7646d9d064938cd0cf4db63af4cdd129daf49989af7235f2107d0ad0308c99"
   },
   {
+   "bytes": 1171372,
+   "path": "_index/Reports/validation-report.json",
+   "sha256": "d3b8aece51a64690264e8d8da8fff8296aa9c7eebabd37c939e8b6a46e663efd"
+  },
+  {
+   "bytes": 90824,
+   "path": "_index/Reports/validation-report.md",
+   "sha256": "d387e44173608dc111c50f99113e645f0fb8224789a79866fdb88cea97970074"
+  },
+  {
+   "bytes": 407635,
+   "path": "_index/Views/by-type.md",
+   "sha256": "0c713fde60fb54121e487326498e9ce0ce61be83d3b302f16f0c05d9989f82ec"
+  },
+  {
    "bytes": 558288896,
    "path": "_index/passage_store.sqlite",
    "sha256": "6405e5487e7820ca948b4da7f92d25335e97f5a1d2c0333edc59fe53da2957d9"
@@ -10095,9 +10400,9 @@
  ],
  "includes_vector": false,
  "pack": {
-  "bytes": 225680725,
+  "bytes": 226135406,
   "path": "corpus-pack-v1.tar.gz",
-  "sha256": "a8e4a062a78e8d8c991754f9d04bd2d56ded971c44070755dfeeb4ec1db95ea7"
+  "sha256": "45ea3f27492ce4df4732db934979591b2e5809a34c9f223c56122869cf5fca99"
  },
  "rights_notice": "This pack contains third-party copyrighted texts (Lacan seminar transcriptions, a print-edition extraction, and a community translation). It is NOT for public redistribution. Whoever receives it must have the right to use those texts. See NOTICE and CORPUS.md in the engine repository.",
  "schema_version": "lacan-corpus-pack/v1",
