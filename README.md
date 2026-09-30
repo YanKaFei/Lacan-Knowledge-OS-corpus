@@ -170,10 +170,43 @@ input cannot slip through — that behaviour came from running a fresh install e
 the failures (`CORE_EXECUTION_FAILED: … alias_index.jsonl`, then freeze drift on the data-version
 inputs). See [`docs/CORPUS_PACK.md`](https://github.com/YanKaFei/Lacan-Knowledge-OS/blob/main/docs/CORPUS_PACK.md).
 
+## A second pack in this repository: `corpus-demo-v1` (public domain)
+
+This repository also hosts a **second, completely separate** pack — the public-domain **demo
+corpus** — so that someone who wants to *try the engine* before touching the seminar texts has a
+lawful, redistributable option.
+
+| | `corpus-v1` (the Lacan corpus) | `corpus-demo-v1` (demo) |
+|---|---|---|
+| Contents | French working transcriptions · Seuil extraction · community Chinese translation | Falret 1890 · Binet 1892 · Janet 1909 (fr.wikisource, real imprint data) |
+| Size | ~215 MB, 2,078 files | **~0.3 MB, 42 files** |
+| Rights | third-party, **research access only** | **public domain — redistribute freely** |
+| Freeze status | `SCHOLARLY_CORE_READY` (human-reviewed) | `CORPUS_HUMAN_REVIEW_NOT_AVAILABLE` (no human acceptance evidence exists for it) |
+| What it gives you | the reference corpus the frozen core was built for | a complete research run: 183 passages, a 15-entity ontology layer, retrieval → evidence → claims → citations → inspector |
+
+```sh
+# install the demo pack instead of the seminar corpus
+curl -sLO https://github.com/YanKaFei/Lacan-Knowledge-OS-corpus/releases/download/corpus-demo-v1/corpus-demo-v1.tar.gz
+curl -sLO https://raw.githubusercontent.com/YanKaFei/Lacan-Knowledge-OS-corpus/main/corpus-demo-v1.manifest.json
+python3 tools/fetch-corpus.py --pack corpus-demo-v1.tar.gz \
+    --manifest corpus-demo-v1.manifest.json --into . --force
+python3 tools/ensure_corpus.py --status      # ready · corpus_profile=unreviewed-corpus
+```
+
+`--force` is required because a fresh engine clone already carries the *reference* metadata
+(`_data/index/INDEX_MANIFEST.json`, `_build_meta.json`, `_concept_meta.json`, the shipped freeze);
+the installer refuses to mix two corpora.
+
+**Two honest limits, printed in the artifact itself:** the demo has no human-acceptance evidence
+(so it is never described as reviewed), and the frozen core's source-attribution wording — the
+speaker named in synthesized claim text — was written for the Lacan corpus and does **not** apply
+to it. The demo therefore promises the retrieval / evidence / citation / inspector / ontology
+chain, not a quotable academic claim. Full statement:
+[`docs/DEMO_CORPUS.md`](https://github.com/YanKaFei/Lacan-Knowledge-OS/blob/main/docs/DEMO_CORPUS.md).
+
 ## If you need text you can publish or sell
 
-Use the engine with a corpus you hold rights in — the public-domain demo corpus
-([`docs/DEMO_CORPUS.md`](https://github.com/YanKaFei/Lacan-Knowledge-OS/blob/main/docs/DEMO_CORPUS.md)),
+Use the engine with a corpus you hold rights in — the public-domain demo corpus above,
 your own texts, or a licensed edition. The engine is corpus-agnostic: the builders, validators,
 retrieval, evidence contract and abstention discipline work identically on any corpus you supply.
 

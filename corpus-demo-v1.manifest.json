@@ -1,0 +1,232 @@
+{
+ "corpus_profile": "unreviewed-corpus",
+ "counts": {
+  "files": 42,
+  "passages": 12,
+  "raw_bytes": 1605996,
+  "seminars": 0
+ },
+ "created_at": "2026-09-30T07:19:52Z",
+ "files": [
+  {
+   "bytes": 6370,
+   "path": "_data/core_freeze/data_version_declarations.json",
+   "sha256": "39d0fc820d18e1833bff98217232eaadcd8d2c7ade4962f7c14b7fc4e2c4a807"
+  },
+  {
+   "bytes": 25246,
+   "path": "_data/core_freeze/freeze_lineage.json",
+   "sha256": "4f0d47c2ad4fa5dd52f1da9b93150dafc1af7f7b45947132f043edaabcacc9d9"
+  },
+  {
+   "bytes": 5497,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.4d0-final.json",
+   "sha256": "9a84ef35049ad0ed27e17635e0b4ce4393ea0108bc11572f40898c00228b83a0"
+  },
+  {
+   "bytes": 5497,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.4d1-final.json",
+   "sha256": "8594398c481cd1e1b83a383bd717faa2e3d35c8a95a2cc0d0d7bda08f9a52a3b"
+  },
+  {
+   "bytes": 5497,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.4d1-policy-registered.json",
+   "sha256": "72d0010d010c98df58bb488f9772d5073114267e5a564aaff17839db41ad8bbe"
+  },
+  {
+   "bytes": 5497,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.4d2-workspace-registered.json",
+   "sha256": "496aa6a3d68a047ba1134ce0b85618c525bba79c8f10bbe81971f768b991e3f8"
+  },
+  {
+   "bytes": 5497,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.4e-ccr0001-remediation.json",
+   "sha256": "70debf19f579349e984a0f2b4028dae796cc57c8f52d2ecaa165592af5ec8148"
+  },
+  {
+   "bytes": 9859,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.5a-p6-data-version-separation.json",
+   "sha256": "e73153b760904830fb8851a17827554d721867df6d26d9930b50b62f111eddd5"
+  },
+  {
+   "bytes": 5497,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.5a-presentation-hardening.json",
+   "sha256": "69545d797f1ce328ed8f70af1d1ff8193e7fde8961523e0387bd98b98d2dae62"
+  },
+  {
+   "bytes": 14678,
+   "path": "_data/core_freeze/history/scholarly_core_freeze_v1.demo-corpus.json",
+   "sha256": "218416a34ba3dd76c848eb95b28c0e8e1a17c2987628e9fafe664a6faa9828df"
+  },
+  {
+   "bytes": 14678,
+   "path": "_data/core_freeze/scholarly_core_freeze_v1.json",
+   "sha256": "218416a34ba3dd76c848eb95b28c0e8e1a17c2987628e9fafe664a6faa9828df"
+  },
+  {
+   "bytes": 301,
+   "path": "_data/core_freeze/segments.json",
+   "sha256": "7561614c97430a9b0563c0b59362fd1f39e5429108498938c503308a3fa84f53"
+  },
+  {
+   "bytes": 3999,
+   "path": "_data/corpus_inventory.json",
+   "sha256": "409cd64e5055f11ff39554ec6e347706147e570a7e402272fd2806285d341dc5"
+  },
+  {
+   "bytes": 3677,
+   "path": "_data/eval/evaluation_run_manifest.schema.json",
+   "sha256": "9f250de2fc5050ba1c3a072224e67b382d6d3962c2c1c5490bcba40e7bdbffe4"
+  },
+  {
+   "bytes": 1855,
+   "path": "_data/index/INDEX_MANIFEST.json",
+   "sha256": "45194f40d517aa9478d5c330ca963e5ac1ebdcce81da1b5f0801357322e7884c"
+  },
+  {
+   "bytes": 1786,
+   "path": "_data/index/ONTOLOGY_V4A1_VALIDATION.json",
+   "sha256": "78c4ec6fe7259558165ff2e588998cf2b5c73579722e62c75385de308a7ba565"
+  },
+  {
+   "bytes": 0,
+   "path": "_data/index/alias_collisions.jsonl",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 0,
+   "path": "_data/index/alias_index.jsonl",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 585728,
+   "path": "_data/index/lexical.sqlite",
+   "sha256": "a9e2cee8f2e2415f6625d3c2ce058a22b805e70c008811e42b6a40d3a9fbe054"
+  },
+  {
+   "bytes": 2110,
+   "path": "_data/index/tokenizer_benchmark.json",
+   "sha256": "43783258c311df33bac41c7fd4f322f5fc632cee94ecf4b29375a42bd8ec56b5"
+  },
+  {
+   "bytes": 1099,
+   "path": "_data/index/vector/VECTOR_INDEX_MANIFEST.json",
+   "sha256": "5a14642220ad8d513bba6deb0031ace1ceea28f541c89be4a0aacb7a6ff0c29f"
+  },
+  {
+   "bytes": 1537,
+   "path": "_data/ontology/v4a1/MANIFEST.json",
+   "sha256": "381a181d24ee502b2bda911fb073dc73582a39096d82adc7c701c03dd5bc5e1b"
+  },
+  {
+   "bytes": 18543,
+   "path": "_data/ontology/v4a1/entities.jsonl",
+   "sha256": "f5401dc58bab48b4c29a1fb0f2bb4ae477a60ac9540ce212185747f48b59677b"
+  },
+  {
+   "bytes": 58110,
+   "path": "_data/ontology/v4a1/evidence.jsonl",
+   "sha256": "ece3db58c3e47fc423c0d545de777c937f8ed26beef20e8feac08e181fabaef4"
+  },
+  {
+   "bytes": 0,
+   "path": "_data/ontology/v4a1/migrations.jsonl",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 2006,
+   "path": "_data/ontology/v4a1/relations.jsonl",
+   "sha256": "604d40597467ce54f9c631c8a8ea54e124986e1a63149fdaf4485f6e2acd3000"
+  },
+  {
+   "bytes": 27562,
+   "path": "_data/ontology/v4a1/spec.json",
+   "sha256": "dffc754138a25dbe2e1a54b5b55cd6af0f3d6b3d6c3050598096670ef68534a9"
+  },
+  {
+   "bytes": 4366,
+   "path": "_data/ontology/v4a1/term_mappings.jsonl",
+   "sha256": "c144ab92795d5fcc7c90578fbc7c0556b05c38916ba02a1a10802d596f910a99"
+  },
+  {
+   "bytes": 1210,
+   "path": "_data/ontology/v4a1/vocabulary.json",
+   "sha256": "e354d7848a273b19440cd571bb1ea64b5045b9e80dae46fa3ce9d5e3a045aff0"
+  },
+  {
+   "bytes": 631,
+   "path": "_data/passage_store/_build_meta.json",
+   "sha256": "dc72b7d14069bf273e4c948967a987257fea8c3d9b2493a9ce0d5b9a89ea8a87"
+  },
+  {
+   "bytes": 659,
+   "path": "_data/passage_store/_concept_meta.json",
+   "sha256": "6b04c617f621e53f05ec2c8ebbfacd5b615642b81e682f1990f11ad6fbfc3708"
+  },
+  {
+   "bytes": 0,
+   "path": "_data/passage_store/concept_states.jsonl",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 0,
+   "path": "_data/passage_store/concepts.jsonl",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 1950,
+   "path": "_data/passage_store/corpus_sources.jsonl",
+   "sha256": "35c0a84f920ed70c490fa20a10254a99bb97aeb8154ef622c808e528e483094a"
+  },
+  {
+   "bytes": 67359,
+   "path": "_data/passage_store/passage_realizations.jsonl",
+   "sha256": "193184b6dd78c75b331a31301bf32ed0491e0d015bb0ff6f931bc0967d89fa0c"
+  },
+  {
+   "bytes": 29562,
+   "path": "_data/passage_store/passage_witnesses.jsonl",
+   "sha256": "f4ef3b683a78b45a66a40d2b30b318369b761b42eb812f4d659f43c912f34755"
+  },
+  {
+   "bytes": 677950,
+   "path": "_data/passage_store/passages.jsonl",
+   "sha256": "6ba44aba66431bbc101aa739805de3cc02fddd63bb58b5c22ba59b4a692d4df6"
+  },
+  {
+   "bytes": 1409,
+   "path": "_data/passage_store/seminars.jsonl",
+   "sha256": "7a0a58645eba509b978d3caa13a5ef7f1087f2061e5e61f3c2584a674eca1363"
+  },
+  {
+   "bytes": 3392,
+   "path": "_data/passage_store/sessions.jsonl",
+   "sha256": "6cf0c60d2dcfd7468d7ded1b237b0ee58ed6414bc109c6dcd1b5abeaf3ed12b7"
+  },
+  {
+   "bytes": 0,
+   "path": "_data/passage_store/translations.jsonl",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "bytes": 2225,
+   "path": "_data/passage_store/witnesses.jsonl",
+   "sha256": "0882e211f4decc28b6216c23df712db463cee52d7fba244a238213e7c3e32e73"
+  },
+  {
+   "bytes": 3157,
+   "path": "_data/terminology_bridge.jsonl",
+   "sha256": "08e153f17300b7b6531c30dfa3f312009d1901db4209c996c42b676203488e54"
+  }
+ ],
+ "includes_vector": false,
+ "pack": {
+  "bytes": 301927,
+  "path": "corpus-demo-v1.tar.gz",
+  "sha256": "b7b09e1b54ae6fce6d0d3e47f133b4ac7badeea857560aed569d4f6aba316299"
+ },
+ "pack_kind": "demo",
+ "rights_notice": "This pack contains **public-domain** texts only (Jules Falret 1890, Alfred Binet 1892, Pierre Janet 1909 — transcribed from fr.wikisource with their real imprint data). It is redistributable. It comes with a corpus profile of `unreviewed-corpus`: no human acceptance evidence exists for this corpus, so the freeze status is CORPUS_HUMAN_REVIEW_NOT_AVAILABLE and answers carry no human-review endorsement. The frozen core's source-attribution wording was written for the reference corpus and is NOT applicable here: the demo promises the retrieval / evidence / citation / inspector / ontology chain.",
+ "schema_version": "lacan-corpus-pack/v1",
+ "volumes": []
+}
